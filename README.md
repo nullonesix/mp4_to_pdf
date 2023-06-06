@@ -6,7 +6,7 @@ Usage:
 In a terminal:
 git clone https://github.com/nullonesix/mp4_to_pdf
 cd mp4_to_pdf
-cp [location_of_your_mp4_video_lecture_mp4] lecture.mp4
+cp [location_of_your_mp4_video_lecture] lecture.mp4
 python3 slides.py # to make pngs from video
 python3 slides2pdf.py # to make a pdf from pngs
 python3 trim_lecture.py # to remove question section at the end
