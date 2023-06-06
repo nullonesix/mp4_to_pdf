@@ -13,5 +13,5 @@ python3 trim_lecture.py # to remove question section at the end
 ```
 
 - you can adjust similarity threshold in slides.py (default is 0.99, lower threshold means potentially fewer slides are included, higher threshold means potential duplicate slides)
-- for faster processing you can increase the frame_rate in slides.py (default is 30, this means any slide that has less than 0.5 seconds spent on it is potentially excluded)
+- for faster processing you can increase the frame_rate in slides.py (default is 30, this means any slide that has less than 0.5 seconds spent on it might be excluded)
 - for a smaller pdf you can adjust the width in slides.py or switch from png to jpg
